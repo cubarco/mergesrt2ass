@@ -1,4 +1,4 @@
-Pipe as file
+mergesrt2ass
 ===
 A python script to merge two .srt subtitle files to a single .ass subtitle file,
 based on pysubs2.
