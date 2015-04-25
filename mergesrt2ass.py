@@ -29,7 +29,7 @@ def help(cmd):
         print ('''
 Usage: {} SUBTITLE_FILE_1 SUBTITLE_FILE_2 OUTPUT_FILENAME.
 
-The lines from SUBTITLE_FILE_1 will be displayed over the lines from
+The lines from SUBTITLE_FILE_1 will *probably* be displayed over the lines from
 SUBTITLE_FILE_2. And the filename extension of OUTPUT_FILE should be ".ass".
 '''
                .format(cmd))
