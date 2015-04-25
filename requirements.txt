@@ -1,0 +1,2 @@
+chardet==2.3.0
+pysubs2==0.2.0
