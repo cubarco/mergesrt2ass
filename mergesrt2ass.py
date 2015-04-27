@@ -22,6 +22,9 @@ def merge(file1, file2, outfile):
     for line in subs1:
         subs2.append(line)
 
+    subs2.styles["Default"].fontsize = 14.0
+    subs2.styles["Default"].shadow = 0.5
+    subs2.styles["Default"].outline = 1.0
     subs2.save(outfile)
 
 
