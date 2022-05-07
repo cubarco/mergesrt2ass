@@ -9,7 +9,7 @@ import sys
 def charset_detect(filename):
     with open(filename) as fi:
         rawdata = fi.read()
-    encoding = chardet.detect(rawdata)['encoding']
+    encoding = chardet.detect(rawdata.encode())['encoding']
     if encoding.lower() == 'gb2312':  # Decoding may fail using GB2312
         encoding = 'gbk'
     return encoding
